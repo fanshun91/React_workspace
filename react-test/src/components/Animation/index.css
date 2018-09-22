@@ -1,0 +1,51 @@
+/* .show {
+  opacity: 1;
+  transition: opacity .6s ease;
+}
+
+.fade {
+  opacity: 0;
+  transition: opacity .6s ease;
+} */
+
+.show {
+  animation: show .6s ease forwards;
+}
+
+.fade {
+  animation: fade .6s ease forwards;
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+    color: cyan;
+  }
+
+  50% {
+    opacity: .5;
+    color: mediumpurple;
+  }
+
+  100% {
+    opacity: 1;
+    color: palevioletred;
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+    color: palevioletred;
+  }
+
+  50% {
+    opacity: .5;
+    color: mediumpurple;
+  }
+
+  100% {
+    opacity: 0;
+    color: cyan;
+  }
+}
