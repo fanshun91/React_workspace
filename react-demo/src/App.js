@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import { Provider } from 'react-redux'
 import { BrowserRouter, Route } from 'react-router-dom'
-import Header from './components/Header'
+import Header from './common/Header'
 import Home from './pages/home'
 import Detail from './pages/detail/loadable'
 import Login from './pages/login'
